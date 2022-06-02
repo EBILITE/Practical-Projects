@@ -1,0 +1,70 @@
+.Loading{
+    font-size: 42px;
+    color: coral;
+    display: flex;
+    justify-content: center;
+}
+.Underline{
+    width: 4rem;
+    border: 2px solid red;
+    margin-top: -20px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+.TourContainer{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   margin: 0 auto;
+   margin-top: 40px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Image{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.price{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 2px;
+    
+}
+.Interest-btn{
+    display: flex;
+    border: none;
+    background-color: coral;
+    margin: 40px;
+    margin: 0 auto;
+}
+.Interest-btn:hover{
+    background-color: brown;
+}
+
+.info{
+    margin-bottom: 40px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 100%;
+}
